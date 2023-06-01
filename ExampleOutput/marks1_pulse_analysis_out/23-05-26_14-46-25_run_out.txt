@@ -1,0 +1,49 @@
+Y:uckley-labY:uckley-lab
+
+Parsing patient database from Y:uckley-lab
+Dbfit length = 13408
+TimeAxis_DCS length = 13408
+Unique TimeAxis_DCS length = 13408
+
+Calculating sampling constants...
+
+DCS sampling frequency is: 19.9999 hz. Or every 0.05 seconds
+ABP sampling frequency is: 124.9984 hz. Or every 0.0080001 seconds
+
+
+Temporally overlapping signals...
+
+The ABP signal starts at 2217.6818 seconds and ends at 2888.0262 seconds for a total length of : 670.3444 seconds or 11.1724 minutes
+The DCS signal starts at 2217.6779 seconds and ends at 2888.0312 seconds for a total length of : 670.3533 seconds or 11.1726 minutes
+The DCS signal starts first by 0.0039455
+
+
+Downsampling to a constant frequency...
+
+Downsampling time interval is from 1 to 13408 in 0.05 second intervals.
+Downsample ABP signal at a rate of approximately 6 hz for a sampling rate of 19.9999 hz 
+Downsampling time interval is from 1 to 13408 in 0.05 second intervals.
+Both signals now sampled from t = 2217.6779 to 2888.0312
+Dbfit length = 17049
+TimeAxis_DCS length = 17049
+Unique TimeAxis_DCS length = 17049
+
+Calculating sampling constants...
+
+DCS sampling frequency is: 19.9999 hz. Or every 0.05 seconds
+ABP sampling frequency is: 124.9986 hz. Or every 0.0080001 seconds
+
+
+Temporally overlapping signals...
+
+The ABP signal starts at 1421.1529 seconds and ends at 2273.5464 seconds for a total length of : 852.3935 seconds or 14.2066 minutes
+The DCS signal starts at 1421.1499 seconds and ends at 2273.5544 seconds for a total length of : 852.4045 seconds or 14.2067 minutes
+The DCS signal starts first by 0.002991
+
+
+Downsampling to a constant frequency...
+
+Downsampling time interval is from 1 to 17049 in 0.05 second intervals.
+Downsample ABP signal at a rate of approximately 6 hz for a sampling rate of 19.9999 hz 
+Downsampling time interval is from 1 to 17049 in 0.05 second intervals.
+Both signals now sampled from t = 1421.1499 to 2273.5544
