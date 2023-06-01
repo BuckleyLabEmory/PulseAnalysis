@@ -16,6 +16,27 @@ For R code to implement time-waited averaging as discussed in the paper, plase s
 
 - S. Halvorson, "SvenR," https://github.com/svenhalvorson/SvenR.
 
+## Environment
+
+This code was tested in the following MATLAB environment:
+
+```
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.14.0.2206163 (R2023a)
+MATLAB License Number: 621625
+Operating System: macOS  Version: 13.2.1 Build: 22D68 
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 9.14        (R2023a)
+Curve Fitting Toolbox                                 Version 3.9         (R2023a)
+Image Processing Toolbox                              Version 11.7        (R2023a)
+Medical Imaging Toolbox                               Version 1.1         (R2023a)
+Parallel Computing Toolbox                            Version 7.8         (R2023a)
+Signal Processing Toolbox                             Version 9.2         (R2023a)
+Statistics and Machine Learning Toolbox               Version 12.5        (R2023a)
+Symbolic Math Toolbox   
+```
+(HINT: the command `ver` in MATLAB will give you this info for your environment)
 ## Input Data
 
 Please see the `Example_Data` example input dataset. The code assumes that data is saved with the format `[Subject ID]--[varname].mat`, as shown below. File handling within `pulse_analysis_main.m` is mostly in `parse_db.m`.
